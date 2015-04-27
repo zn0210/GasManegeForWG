@@ -80,6 +80,7 @@
             this.tbCtrl.Controls.Add(this.tabPage1);
             this.tbCtrl.Controls.Add(this.tabPage2);
             this.tbCtrl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbCtrl.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.tbCtrl.Location = new System.Drawing.Point(0, 0);
             this.tbCtrl.Name = "tbCtrl";
             this.tbCtrl.SelectedIndex = 0;
@@ -89,10 +90,10 @@
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.zg1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 26);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(736, 340);
+            this.tabPage1.Size = new System.Drawing.Size(736, 336);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "图表";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -100,6 +101,7 @@
             // zg1
             // 
             this.zg1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.zg1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.zg1.Location = new System.Drawing.Point(3, 3);
             this.zg1.Name = "zg1";
             this.zg1.ScrollGrace = 0D;
@@ -109,16 +111,16 @@
             this.zg1.ScrollMinX = 0D;
             this.zg1.ScrollMinY = 0D;
             this.zg1.ScrollMinY2 = 0D;
-            this.zg1.Size = new System.Drawing.Size(730, 334);
+            this.zg1.Size = new System.Drawing.Size(730, 330);
             this.zg1.TabIndex = 0;
             // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.DG1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 26);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(736, 340);
+            this.tabPage2.Size = new System.Drawing.Size(736, 336);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "数据";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -130,7 +132,7 @@
             this.DG1.Location = new System.Drawing.Point(3, 3);
             this.DG1.Name = "DG1";
             this.DG1.RowTemplate.Height = 23;
-            this.DG1.Size = new System.Drawing.Size(730, 334);
+            this.DG1.Size = new System.Drawing.Size(730, 330);
             this.DG1.TabIndex = 0;
             // 
             // panel2
@@ -153,6 +155,7 @@
             this.panel4.Controls.Add(this.lab_Duration);
             this.panel4.Controls.Add(this.lab_Time);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel4.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(683, 91);
@@ -160,10 +163,10 @@
             // 
             // txt_Equip
             // 
-            this.txt_Equip.Location = new System.Drawing.Point(137, 16);
+            this.txt_Equip.Location = new System.Drawing.Point(152, 16);
             this.txt_Equip.Name = "txt_Equip";
             this.txt_Equip.ReadOnly = true;
-            this.txt_Equip.Size = new System.Drawing.Size(119, 21);
+            this.txt_Equip.Size = new System.Drawing.Size(119, 26);
             this.txt_Equip.TabIndex = 13;
             // 
             // lab_Equip
@@ -171,16 +174,16 @@
             this.lab_Equip.AutoSize = true;
             this.lab_Equip.Location = new System.Drawing.Point(66, 19);
             this.lab_Equip.Name = "lab_Equip";
-            this.lab_Equip.Size = new System.Drawing.Size(65, 12);
+            this.lab_Equip.Size = new System.Drawing.Size(88, 16);
             this.lab_Equip.TabIndex = 12;
             this.lab_Equip.Text = "选择设备：";
             // 
             // txtAlg
             // 
-            this.txtAlg.Location = new System.Drawing.Point(137, 59);
+            this.txtAlg.Location = new System.Drawing.Point(152, 59);
             this.txtAlg.Name = "txtAlg";
             this.txtAlg.ReadOnly = true;
-            this.txtAlg.Size = new System.Drawing.Size(119, 21);
+            this.txtAlg.Size = new System.Drawing.Size(119, 26);
             this.txtAlg.TabIndex = 11;
             // 
             // lab_Alg
@@ -188,41 +191,41 @@
             this.lab_Alg.AutoSize = true;
             this.lab_Alg.Location = new System.Drawing.Point(66, 62);
             this.lab_Alg.Name = "lab_Alg";
-            this.lab_Alg.Size = new System.Drawing.Size(65, 12);
+            this.lab_Alg.Size = new System.Drawing.Size(88, 16);
             this.lab_Alg.TabIndex = 10;
             this.lab_Alg.Text = "预测算法：";
             // 
             // txtDuration
             // 
-            this.txtDuration.Location = new System.Drawing.Point(340, 59);
+            this.txtDuration.Location = new System.Drawing.Point(387, 59);
             this.txtDuration.Name = "txtDuration";
             this.txtDuration.ReadOnly = true;
-            this.txtDuration.Size = new System.Drawing.Size(134, 21);
+            this.txtDuration.Size = new System.Drawing.Size(134, 26);
             this.txtDuration.TabIndex = 9;
             // 
             // txtNowtime
             // 
-            this.txtNowtime.Location = new System.Drawing.Point(340, 16);
+            this.txtNowtime.Location = new System.Drawing.Point(387, 16);
             this.txtNowtime.Name = "txtNowtime";
             this.txtNowtime.ReadOnly = true;
-            this.txtNowtime.Size = new System.Drawing.Size(134, 21);
+            this.txtNowtime.Size = new System.Drawing.Size(134, 26);
             this.txtNowtime.TabIndex = 8;
             // 
             // lab_Duration
             // 
             this.lab_Duration.AutoSize = true;
-            this.lab_Duration.Location = new System.Drawing.Point(277, 62);
+            this.lab_Duration.Location = new System.Drawing.Point(293, 62);
             this.lab_Duration.Name = "lab_Duration";
-            this.lab_Duration.Size = new System.Drawing.Size(65, 12);
+            this.lab_Duration.Size = new System.Drawing.Size(88, 16);
             this.lab_Duration.TabIndex = 7;
             this.lab_Duration.Text = "预测时长：";
             // 
             // lab_Time
             // 
             this.lab_Time.AutoSize = true;
-            this.lab_Time.Location = new System.Drawing.Point(277, 19);
+            this.lab_Time.Location = new System.Drawing.Point(293, 19);
             this.lab_Time.Name = "lab_Time";
-            this.lab_Time.Size = new System.Drawing.Size(65, 12);
+            this.lab_Time.Size = new System.Drawing.Size(88, 16);
             this.lab_Time.TabIndex = 6;
             this.lab_Time.Text = "当前时间：";
             // 

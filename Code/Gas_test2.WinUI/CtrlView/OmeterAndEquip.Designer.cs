@@ -44,7 +44,6 @@
             this.C_Percent = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.btn_Enter = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DG_In)).BeginInit();
@@ -56,7 +55,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btn_Enter);
             this.groupBox1.Controls.Add(this.lbox_Ometer);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.groupBox1.Font = new System.Drawing.Font("宋体", 12F);
@@ -73,7 +71,7 @@
             this.lbox_Ometer.ItemHeight = 16;
             this.lbox_Ometer.Location = new System.Drawing.Point(60, 50);
             this.lbox_Ometer.Name = "lbox_Ometer";
-            this.lbox_Ometer.Size = new System.Drawing.Size(161, 260);
+            this.lbox_Ometer.Size = new System.Drawing.Size(161, 340);
             this.lbox_Ometer.TabIndex = 0;
             this.lbox_Ometer.SelectedIndexChanged += new System.EventHandler(this.lbox_Ometer_SelectedIndexChanged);
             // 
@@ -200,16 +198,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "输出设备：";
             // 
-            // btn_Enter
-            // 
-            this.btn_Enter.Location = new System.Drawing.Point(90, 380);
-            this.btn_Enter.Name = "btn_Enter";
-            this.btn_Enter.Size = new System.Drawing.Size(75, 23);
-            this.btn_Enter.TabIndex = 1;
-            this.btn_Enter.Text = "确认";
-            this.btn_Enter.UseVisualStyleBackColor = true;
-            this.btn_Enter.Click += new System.EventHandler(this.btn_Enter_Click);
-            // 
             // OmeterAndEquip
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -251,6 +239,5 @@
         private System.Windows.Forms.DataGridViewCheckBoxColumn C_Flag;
         private System.Windows.Forms.DataGridViewTextBoxColumn C_Percent;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btn_Enter;
     }
 }

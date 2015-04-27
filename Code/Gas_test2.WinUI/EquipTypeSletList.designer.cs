@@ -174,9 +174,9 @@
             // 
             // tbEquipName
             // 
-            this.tbEquipName.Location = new System.Drawing.Point(100, 10);
+            this.tbEquipName.Location = new System.Drawing.Point(101, 6);
             this.tbEquipName.Name = "tbEquipName";
-            this.tbEquipName.Size = new System.Drawing.Size(200, 21);
+            this.tbEquipName.Size = new System.Drawing.Size(200, 26);
             this.tbEquipName.TabIndex = 1;
             // 
             // Panel1
@@ -184,6 +184,7 @@
             this.Panel1.Controls.Add(this.lbEquipName);
             this.Panel1.Controls.Add(this.tbEquipName);
             this.Panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Panel1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Panel1.Location = new System.Drawing.Point(0, 30);
             this.Panel1.Name = "Panel1";
             this.Panel1.Size = new System.Drawing.Size(784, 40);
@@ -192,7 +193,7 @@
             // btnAdd
             // 
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(51, 22);
+            this.btnAdd.Size = new System.Drawing.Size(52, 22);
             this.btnAdd.Text = "添加(&A)";
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
@@ -204,7 +205,7 @@
             // btnEdit
             // 
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(50, 22);
+            this.btnEdit.Size = new System.Drawing.Size(51, 22);
             this.btnEdit.Text = "编辑(&E)";
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
@@ -216,7 +217,7 @@
             // btnDelete
             // 
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(52, 22);
+            this.btnDelete.Size = new System.Drawing.Size(53, 22);
             this.btnDelete.Text = "删除(&D)";
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
@@ -228,7 +229,7 @@
             // btnQuery
             // 
             this.btnQuery.Name = "btnQuery";
-            this.btnQuery.Size = new System.Drawing.Size(53, 22);
+            this.btnQuery.Size = new System.Drawing.Size(54, 22);
             this.btnQuery.Text = "查询(&Q)";
             this.btnQuery.Click += new System.EventHandler(this.btnQuery_Click);
             // 
@@ -240,7 +241,7 @@
             // btnPrint
             // 
             this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Size = new System.Drawing.Size(50, 22);
+            this.btnPrint.Size = new System.Drawing.Size(51, 22);
             this.btnPrint.Text = "打印(&P)";
             this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
@@ -252,7 +253,7 @@
             // btnClose
             // 
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(51, 22);
+            this.btnClose.Size = new System.Drawing.Size(52, 22);
             this.btnClose.Text = "关闭(&C)";
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 

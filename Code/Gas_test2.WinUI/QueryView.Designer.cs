@@ -129,20 +129,22 @@
             // DTP2
             // 
             this.DTP2.CustomFormat = "yyyy-MM-dd HH:mm";
+            this.DTP2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.DTP2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.DTP2.Location = new System.Drawing.Point(119, 64);
             this.DTP2.Name = "DTP2";
-            this.DTP2.Size = new System.Drawing.Size(144, 21);
+            this.DTP2.Size = new System.Drawing.Size(153, 26);
             this.DTP2.TabIndex = 9;
             this.DTP2.Value = new System.DateTime(2013, 6, 17, 12, 41, 0, 0);
             // 
             // DTP1
             // 
             this.DTP1.CustomFormat = "yyyy-MM-dd HH:mm";
+            this.DTP1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.DTP1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.DTP1.Location = new System.Drawing.Point(119, 28);
             this.DTP1.Name = "DTP1";
-            this.DTP1.Size = new System.Drawing.Size(144, 21);
+            this.DTP1.Size = new System.Drawing.Size(153, 26);
             this.DTP1.TabIndex = 8;
             this.DTP1.Value = new System.DateTime(2013, 6, 17, 10, 41, 0, 0);
             // 
@@ -178,9 +180,9 @@
             // btn_Query
             // 
             this.btn_Query.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_Query.Location = new System.Drawing.Point(650, 33);
+            this.btn_Query.Location = new System.Drawing.Point(638, 33);
             this.btn_Query.Name = "btn_Query";
-            this.btn_Query.Size = new System.Drawing.Size(67, 48);
+            this.btn_Query.Size = new System.Drawing.Size(70, 34);
             this.btn_Query.TabIndex = 5;
             this.btn_Query.Text = "查询";
             this.btn_Query.UseVisualStyleBackColor = true;
@@ -200,6 +202,7 @@
             this.tbCtrl.Controls.Add(this.tabPage1);
             this.tbCtrl.Controls.Add(this.tabPage2);
             this.tbCtrl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbCtrl.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.tbCtrl.ItemSize = new System.Drawing.Size(100, 18);
             this.tbCtrl.Location = new System.Drawing.Point(0, 0);
             this.tbCtrl.Name = "tbCtrl";

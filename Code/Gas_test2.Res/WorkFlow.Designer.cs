@@ -36,11 +36,11 @@
             // 
             // lbDrugDict
             // 
-            this.lbDrugDict.ActiveLinkColor = System.Drawing.Color.Blue;
+            this.lbDrugDict.ActiveLinkColor = System.Drawing.Color.Black;
             this.lbDrugDict.AutoSize = true;
             this.lbDrugDict.BackColor = System.Drawing.Color.Transparent;
             this.lbDrugDict.Font = new System.Drawing.Font("宋体", 16F);
-            this.lbDrugDict.ForeColor = System.Drawing.Color.Blue;
+            this.lbDrugDict.ForeColor = System.Drawing.Color.Black;
             this.lbDrugDict.Location = new System.Drawing.Point(563, 60);
             this.lbDrugDict.Name = "lbDrugDict";
             this.lbDrugDict.Size = new System.Drawing.Size(142, 22);
@@ -57,7 +57,7 @@
             this.lbDrugIn.AutoSize = true;
             this.lbDrugIn.BackColor = System.Drawing.Color.Transparent;
             this.lbDrugIn.Font = new System.Drawing.Font("宋体", 16F);
-            this.lbDrugIn.ForeColor = System.Drawing.Color.Blue;
+            this.lbDrugIn.ForeColor = System.Drawing.Color.Black;
             this.lbDrugIn.Location = new System.Drawing.Point(536, 182);
             this.lbDrugIn.Name = "lbDrugIn";
             this.lbDrugIn.Size = new System.Drawing.Size(230, 22);
@@ -74,7 +74,7 @@
             this.lbDrugLimit.AutoSize = true;
             this.lbDrugLimit.BackColor = System.Drawing.Color.Transparent;
             this.lbDrugLimit.Font = new System.Drawing.Font("宋体", 16F);
-            this.lbDrugLimit.ForeColor = System.Drawing.Color.Blue;
+            this.lbDrugLimit.ForeColor = System.Drawing.Color.Black;
             this.lbDrugLimit.Location = new System.Drawing.Point(536, 302);
             this.lbDrugLimit.Name = "lbDrugLimit";
             this.lbDrugLimit.Size = new System.Drawing.Size(230, 22);
@@ -91,7 +91,7 @@
             this.lbDrugSale.AutoSize = true;
             this.lbDrugSale.BackColor = System.Drawing.Color.Transparent;
             this.lbDrugSale.Font = new System.Drawing.Font("宋体", 16F);
-            this.lbDrugSale.ForeColor = System.Drawing.Color.Blue;
+            this.lbDrugSale.ForeColor = System.Drawing.Color.Black;
             this.lbDrugSale.Location = new System.Drawing.Point(536, 422);
             this.lbDrugSale.Name = "lbDrugSale";
             this.lbDrugSale.Size = new System.Drawing.Size(252, 22);
@@ -111,6 +111,7 @@
             this.Controls.Add(this.lbDrugLimit);
             this.Controls.Add(this.lbDrugIn);
             this.Controls.Add(this.lbDrugDict);
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "WorkFlow";
             this.Size = new System.Drawing.Size(1097, 490);
             this.ResumeLayout(false);

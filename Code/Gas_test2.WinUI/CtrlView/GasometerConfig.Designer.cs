@@ -56,7 +56,7 @@
             // 
             this.btn_Alter.Location = new System.Drawing.Point(137, 381);
             this.btn_Alter.Name = "btn_Alter";
-            this.btn_Alter.Size = new System.Drawing.Size(75, 25);
+            this.btn_Alter.Size = new System.Drawing.Size(75, 30);
             this.btn_Alter.TabIndex = 12;
             this.btn_Alter.Text = "修改";
             this.btn_Alter.UseVisualStyleBackColor = true;
@@ -65,7 +65,7 @@
             // 
             this.btn_Delete.Location = new System.Drawing.Point(229, 381);
             this.btn_Delete.Name = "btn_Delete";
-            this.btn_Delete.Size = new System.Drawing.Size(75, 25);
+            this.btn_Delete.Size = new System.Drawing.Size(75, 30);
             this.btn_Delete.TabIndex = 11;
             this.btn_Delete.Text = "删除";
             this.btn_Delete.UseVisualStyleBackColor = true;
@@ -75,7 +75,7 @@
             // 
             this.btn_Add.Location = new System.Drawing.Point(40, 381);
             this.btn_Add.Name = "btn_Add";
-            this.btn_Add.Size = new System.Drawing.Size(75, 25);
+            this.btn_Add.Size = new System.Drawing.Size(75, 30);
             this.btn_Add.TabIndex = 10;
             this.btn_Add.Text = "添加";
             this.btn_Add.UseVisualStyleBackColor = true;

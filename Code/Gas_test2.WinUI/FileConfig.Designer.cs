@@ -55,18 +55,20 @@
             this.gbox1.Controls.Add(this.btn_Delete);
             this.gbox1.Controls.Add(this.btn_Add);
             this.gbox1.Controls.Add(this.lbox_Type);
+            this.gbox1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.gbox1.Location = new System.Drawing.Point(54, 23);
             this.gbox1.Name = "gbox1";
-            this.gbox1.Size = new System.Drawing.Size(321, 411);
+            this.gbox1.Size = new System.Drawing.Size(309, 411);
             this.gbox1.TabIndex = 16;
             this.gbox1.TabStop = false;
             this.gbox1.Text = "可选算法：";
             // 
             // btn_Update
             // 
-            this.btn_Update.Location = new System.Drawing.Point(124, 342);
+            this.btn_Update.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Update.Location = new System.Drawing.Point(118, 342);
             this.btn_Update.Name = "btn_Update";
-            this.btn_Update.Size = new System.Drawing.Size(50, 48);
+            this.btn_Update.Size = new System.Drawing.Size(68, 40);
             this.btn_Update.TabIndex = 8;
             this.btn_Update.Text = "读取";
             this.btn_Update.UseVisualStyleBackColor = true;
@@ -74,9 +76,10 @@
             // 
             // btn_Delete
             // 
-            this.btn_Delete.Location = new System.Drawing.Point(223, 342);
+            this.btn_Delete.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Delete.Location = new System.Drawing.Point(209, 342);
             this.btn_Delete.Name = "btn_Delete";
-            this.btn_Delete.Size = new System.Drawing.Size(50, 48);
+            this.btn_Delete.Size = new System.Drawing.Size(68, 40);
             this.btn_Delete.TabIndex = 7;
             this.btn_Delete.Text = "删除";
             this.btn_Delete.UseVisualStyleBackColor = true;
@@ -84,9 +87,10 @@
             // 
             // btn_Add
             // 
+            this.btn_Add.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Add.Location = new System.Drawing.Point(27, 342);
             this.btn_Add.Name = "btn_Add";
-            this.btn_Add.Size = new System.Drawing.Size(50, 48);
+            this.btn_Add.Size = new System.Drawing.Size(68, 40);
             this.btn_Add.TabIndex = 6;
             this.btn_Add.Text = "添加";
             this.btn_Add.UseVisualStyleBackColor = true;
@@ -95,10 +99,10 @@
             // lbox_Type
             // 
             this.lbox_Type.FormattingEnabled = true;
-            this.lbox_Type.ItemHeight = 12;
-            this.lbox_Type.Location = new System.Drawing.Point(27, 20);
+            this.lbox_Type.ItemHeight = 16;
+            this.lbox_Type.Location = new System.Drawing.Point(29, 36);
             this.lbox_Type.Name = "lbox_Type";
-            this.lbox_Type.Size = new System.Drawing.Size(246, 292);
+            this.lbox_Type.Size = new System.Drawing.Size(250, 276);
             this.lbox_Type.TabIndex = 5;
             // 
             // gbox2
@@ -106,6 +110,7 @@
             this.gbox2.Controls.Add(this.lab1);
             this.gbox2.Controls.Add(this.btn_Browse1);
             this.gbox2.Controls.Add(this.textBox1);
+            this.gbox2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.gbox2.Location = new System.Drawing.Point(434, 23);
             this.gbox2.Name = "gbox2";
             this.gbox2.Size = new System.Drawing.Size(430, 100);
@@ -118,7 +123,7 @@
             this.lab1.AutoSize = true;
             this.lab1.Location = new System.Drawing.Point(23, 52);
             this.lab1.Name = "lab1";
-            this.lab1.Size = new System.Drawing.Size(65, 12);
+            this.lab1.Size = new System.Drawing.Size(88, 16);
             this.lab1.TabIndex = 2;
             this.lab1.Text = "选择文件：";
             // 
@@ -134,9 +139,9 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(104, 49);
+            this.textBox1.Location = new System.Drawing.Point(117, 47);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(178, 21);
+            this.textBox1.Size = new System.Drawing.Size(178, 26);
             this.textBox1.TabIndex = 0;
             // 
             // gbox3
@@ -145,6 +150,7 @@
             this.gbox3.Controls.Add(this.lab2);
             this.gbox3.Controls.Add(this.btn_Browse2);
             this.gbox3.Controls.Add(this.textBox2);
+            this.gbox3.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.gbox3.Location = new System.Drawing.Point(434, 148);
             this.gbox3.Name = "gbox3";
             this.gbox3.Size = new System.Drawing.Size(430, 286);
@@ -163,15 +169,15 @@
             // lab2
             // 
             this.lab2.AutoSize = true;
-            this.lab2.Location = new System.Drawing.Point(33, 45);
+            this.lab2.Location = new System.Drawing.Point(23, 47);
             this.lab2.Name = "lab2";
-            this.lab2.Size = new System.Drawing.Size(65, 12);
+            this.lab2.Size = new System.Drawing.Size(88, 16);
             this.lab2.TabIndex = 4;
             this.lab2.Text = "选择文件：";
             // 
             // btn_Browse2
             // 
-            this.btn_Browse2.Location = new System.Drawing.Point(319, 40);
+            this.btn_Browse2.Location = new System.Drawing.Point(319, 44);
             this.btn_Browse2.Name = "btn_Browse2";
             this.btn_Browse2.Size = new System.Drawing.Size(75, 23);
             this.btn_Browse2.TabIndex = 3;
@@ -181,16 +187,17 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(104, 42);
+            this.textBox2.Location = new System.Drawing.Point(117, 44);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(178, 21);
+            this.textBox2.Size = new System.Drawing.Size(178, 26);
             this.textBox2.TabIndex = 2;
             // 
             // btn_Enter
             // 
-            this.btn_Enter.Location = new System.Drawing.Point(881, 338);
+            this.btn_Enter.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Enter.Location = new System.Drawing.Point(870, 398);
             this.btn_Enter.Name = "btn_Enter";
-            this.btn_Enter.Size = new System.Drawing.Size(67, 96);
+            this.btn_Enter.Size = new System.Drawing.Size(86, 36);
             this.btn_Enter.TabIndex = 19;
             this.btn_Enter.Text = "确认修改";
             this.btn_Enter.UseVisualStyleBackColor = true;

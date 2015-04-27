@@ -31,7 +31,14 @@
             this.components = new System.ComponentModel.Container();
             this.Tree_Ometer = new System.Windows.Forms.TreeView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.CkListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.lab_EndTime = new System.Windows.Forms.Label();
+            this.lab_StartTime = new System.Windows.Forms.Label();
+            this.DTP2 = new System.Windows.Forms.DateTimePicker();
+            this.DTP1 = new System.Windows.Forms.DateTimePicker();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.txt_Equip = new System.Windows.Forms.TextBox();
             this.lbl2 = new System.Windows.Forms.Label();
             this.lbl1 = new System.Windows.Forms.Label();
@@ -42,21 +49,14 @@
             this.zg1 = new ZedGraph.ZedGraphControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.DG1 = new System.Windows.Forms.DataGridView();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.lab_EndTime = new System.Windows.Forms.Label();
-            this.lab_StartTime = new System.Windows.Forms.Label();
-            this.DTP2 = new System.Windows.Forms.DateTimePicker();
-            this.DTP1 = new System.Windows.Forms.DateTimePicker();
-            this.CkListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tbCtrl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DG1)).BeginInit();
-            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // Tree_Ometer
@@ -80,6 +80,76 @@
             this.panel1.Size = new System.Drawing.Size(744, 104);
             this.panel1.TabIndex = 1;
             // 
+            // CkListBox1
+            // 
+            this.CkListBox1.BackColor = System.Drawing.SystemColors.Menu;
+            this.CkListBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.CkListBox1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.CkListBox1.FormattingEnabled = true;
+            this.CkListBox1.Items.AddRange(new object[] {
+            "煤气实际流量",
+            "煤气预测流量",
+            "预测误差"});
+            this.CkListBox1.Location = new System.Drawing.Point(472, 0);
+            this.CkListBox1.MultiColumn = true;
+            this.CkListBox1.Name = "CkListBox1";
+            this.CkListBox1.Size = new System.Drawing.Size(150, 104);
+            this.CkListBox1.TabIndex = 16;
+            this.CkListBox1.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.CkListBox1_ItemCheck);
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.lab_EndTime);
+            this.panel3.Controls.Add(this.lab_StartTime);
+            this.panel3.Controls.Add(this.DTP2);
+            this.panel3.Controls.Add(this.DTP1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.panel3.Location = new System.Drawing.Point(204, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(268, 104);
+            this.panel3.TabIndex = 15;
+            // 
+            // lab_EndTime
+            // 
+            this.lab_EndTime.AutoSize = true;
+            this.lab_EndTime.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lab_EndTime.Location = new System.Drawing.Point(21, 59);
+            this.lab_EndTime.Name = "lab_EndTime";
+            this.lab_EndTime.Size = new System.Drawing.Size(80, 16);
+            this.lab_EndTime.TabIndex = 11;
+            this.lab_EndTime.Text = "截止时间:";
+            // 
+            // lab_StartTime
+            // 
+            this.lab_StartTime.AutoSize = true;
+            this.lab_StartTime.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lab_StartTime.Location = new System.Drawing.Point(21, 23);
+            this.lab_StartTime.Name = "lab_StartTime";
+            this.lab_StartTime.Size = new System.Drawing.Size(88, 16);
+            this.lab_StartTime.TabIndex = 10;
+            this.lab_StartTime.Text = "起始时间：";
+            // 
+            // DTP2
+            // 
+            this.DTP2.CustomFormat = "yyyy-MM-dd HH:mm";
+            this.DTP2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.DTP2.Location = new System.Drawing.Point(115, 51);
+            this.DTP2.Name = "DTP2";
+            this.DTP2.Size = new System.Drawing.Size(144, 26);
+            this.DTP2.TabIndex = 9;
+            this.DTP2.Value = new System.DateTime(2013, 6, 17, 12, 41, 0, 0);
+            // 
+            // DTP1
+            // 
+            this.DTP1.CustomFormat = "yyyy-MM-dd HH:mm";
+            this.DTP1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.DTP1.Location = new System.Drawing.Point(115, 17);
+            this.DTP1.Name = "DTP1";
+            this.DTP1.Size = new System.Drawing.Size(144, 26);
+            this.DTP1.TabIndex = 8;
+            this.DTP1.Value = new System.DateTime(2013, 6, 17, 10, 41, 0, 0);
+            // 
             // panel4
             // 
             this.panel4.Controls.Add(this.comboBox1);
@@ -87,17 +157,31 @@
             this.panel4.Controls.Add(this.lbl2);
             this.panel4.Controls.Add(this.lbl1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel4.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(189, 104);
+            this.panel4.Size = new System.Drawing.Size(204, 104);
             this.panel4.TabIndex = 14;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "15",
+            "30",
+            "60"});
+            this.comboBox1.Location = new System.Drawing.Point(98, 51);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(100, 24);
+            this.comboBox1.TabIndex = 10;
+            this.comboBox1.Text = "15";
             // 
             // txt_Equip
             // 
-            this.txt_Equip.Location = new System.Drawing.Point(83, 14);
+            this.txt_Equip.Location = new System.Drawing.Point(100, 14);
             this.txt_Equip.Name = "txt_Equip";
             this.txt_Equip.ReadOnly = true;
-            this.txt_Equip.Size = new System.Drawing.Size(98, 21);
+            this.txt_Equip.Size = new System.Drawing.Size(98, 26);
             this.txt_Equip.TabIndex = 8;
             // 
             // lbl2
@@ -105,26 +189,26 @@
             this.lbl2.AutoSize = true;
             this.lbl2.Location = new System.Drawing.Point(20, 54);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(65, 12);
+            this.lbl2.Size = new System.Drawing.Size(88, 16);
             this.lbl2.TabIndex = 7;
             this.lbl2.Text = "预测时长：";
             // 
             // lbl1
             // 
             this.lbl1.AutoSize = true;
-            this.lbl1.Font = new System.Drawing.Font("宋体", 9F);
+            this.lbl1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lbl1.Location = new System.Drawing.Point(20, 17);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(65, 12);
+            this.lbl1.Size = new System.Drawing.Size(88, 16);
             this.lbl1.TabIndex = 6;
             this.lbl1.Text = "当前设备：";
             // 
             // btn_Forecast
             // 
             this.btn_Forecast.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_Forecast.Location = new System.Drawing.Point(640, 17);
+            this.btn_Forecast.Location = new System.Drawing.Point(643, 35);
             this.btn_Forecast.Name = "btn_Forecast";
-            this.btn_Forecast.Size = new System.Drawing.Size(87, 67);
+            this.btn_Forecast.Size = new System.Drawing.Size(70, 34);
             this.btn_Forecast.TabIndex = 0;
             this.btn_Forecast.Text = "预测";
             this.btn_Forecast.UseVisualStyleBackColor = true;
@@ -144,6 +228,7 @@
             this.tbCtrl.Controls.Add(this.tabPage1);
             this.tbCtrl.Controls.Add(this.tabPage2);
             this.tbCtrl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbCtrl.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.tbCtrl.ItemSize = new System.Drawing.Size(100, 18);
             this.tbCtrl.Location = new System.Drawing.Point(0, 0);
             this.tbCtrl.Name = "tbCtrl";
@@ -198,87 +283,6 @@
             this.DG1.Size = new System.Drawing.Size(730, 321);
             this.DG1.TabIndex = 0;
             // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.lab_EndTime);
-            this.panel3.Controls.Add(this.lab_StartTime);
-            this.panel3.Controls.Add(this.DTP2);
-            this.panel3.Controls.Add(this.DTP1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(189, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(268, 104);
-            this.panel3.TabIndex = 15;
-            // 
-            // lab_EndTime
-            // 
-            this.lab_EndTime.AutoSize = true;
-            this.lab_EndTime.Font = new System.Drawing.Font("宋体", 9F);
-            this.lab_EndTime.Location = new System.Drawing.Point(21, 59);
-            this.lab_EndTime.Name = "lab_EndTime";
-            this.lab_EndTime.Size = new System.Drawing.Size(59, 12);
-            this.lab_EndTime.TabIndex = 11;
-            this.lab_EndTime.Text = "截止时间:";
-            // 
-            // lab_StartTime
-            // 
-            this.lab_StartTime.AutoSize = true;
-            this.lab_StartTime.Font = new System.Drawing.Font("宋体", 9F);
-            this.lab_StartTime.Location = new System.Drawing.Point(21, 23);
-            this.lab_StartTime.Name = "lab_StartTime";
-            this.lab_StartTime.Size = new System.Drawing.Size(65, 12);
-            this.lab_StartTime.TabIndex = 10;
-            this.lab_StartTime.Text = "起始时间：";
-            // 
-            // DTP2
-            // 
-            this.DTP2.CustomFormat = "yyyy-MM-dd HH:mm";
-            this.DTP2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DTP2.Location = new System.Drawing.Point(92, 54);
-            this.DTP2.Name = "DTP2";
-            this.DTP2.Size = new System.Drawing.Size(144, 21);
-            this.DTP2.TabIndex = 9;
-            this.DTP2.Value = new System.DateTime(2013, 6, 17, 12, 41, 0, 0);
-            // 
-            // DTP1
-            // 
-            this.DTP1.CustomFormat = "yyyy-MM-dd HH:mm";
-            this.DTP1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DTP1.Location = new System.Drawing.Point(92, 17);
-            this.DTP1.Name = "DTP1";
-            this.DTP1.Size = new System.Drawing.Size(144, 21);
-            this.DTP1.TabIndex = 8;
-            this.DTP1.Value = new System.DateTime(2013, 6, 17, 10, 41, 0, 0);
-            // 
-            // CkListBox1
-            // 
-            this.CkListBox1.BackColor = System.Drawing.SystemColors.Menu;
-            this.CkListBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.CkListBox1.Font = new System.Drawing.Font("宋体", 9F);
-            this.CkListBox1.FormattingEnabled = true;
-            this.CkListBox1.Items.AddRange(new object[] {
-            "煤气实际流量",
-            "煤气预测流量",
-            "预测误差"});
-            this.CkListBox1.Location = new System.Drawing.Point(457, 0);
-            this.CkListBox1.Name = "CkListBox1";
-            this.CkListBox1.Size = new System.Drawing.Size(168, 104);
-            this.CkListBox1.TabIndex = 16;
-            this.CkListBox1.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.CkListBox1_ItemCheck);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "15",
-            "30",
-            "60"});
-            this.comboBox1.Location = new System.Drawing.Point(81, 51);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(100, 20);
-            this.comboBox1.TabIndex = 10;
-            this.comboBox1.Text = "15";
-            // 
             // GasometerView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -290,6 +294,8 @@
             this.Size = new System.Drawing.Size(944, 457);
             this.Load += new System.EventHandler(this.GasometerView_Load);
             this.panel1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -297,8 +303,6 @@
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DG1)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }

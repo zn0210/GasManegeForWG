@@ -39,6 +39,7 @@
             // 
             // sbMessage
             // 
+            this.sbMessage.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.sbMessage.Location = new System.Drawing.Point(0, 0);
             this.sbMessage.Name = "sbMessage";
             this.sbMessage.Panels.AddRange(new System.Windows.Forms.StatusBarPanel[] {
@@ -55,7 +56,7 @@
             this.sbPanelTitle.AutoSize = System.Windows.Forms.StatusBarPanelAutoSize.Contents;
             this.sbPanelTitle.Name = "sbPanelTitle";
             this.sbPanelTitle.Text = "系统消息";
-            this.sbPanelTitle.Width = 64;
+            this.sbPanelTitle.Width = 82;
             // 
             // sbPanelMessage
             // 
@@ -71,7 +72,7 @@
             this.sbPanelLogin.MinWidth = 180;
             this.sbPanelLogin.Name = "sbPanelLogin";
             this.sbPanelLogin.Text = "系统管理员(Administrator)";
-            this.sbPanelLogin.Width = 180;
+            this.sbPanelLogin.Width = 222;
             // 
             // BottomControl
             // 

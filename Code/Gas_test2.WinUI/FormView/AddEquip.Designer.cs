@@ -37,44 +37,50 @@
             this.txtNum = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.rbtn = new System.Windows.Forms.CheckBox();
+            this.rbtn = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // txtSName
             // 
-            this.txtSName.Location = new System.Drawing.Point(140, 92);
+            this.txtSName.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.txtSName.Location = new System.Drawing.Point(140, 73);
             this.txtSName.Name = "txtSName";
-            this.txtSName.Size = new System.Drawing.Size(100, 21);
+            this.txtSName.Size = new System.Drawing.Size(100, 26);
             this.txtSName.TabIndex = 1;
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(140, 45);
+            this.txtName.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.txtName.Location = new System.Drawing.Point(140, 26);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(100, 21);
+            this.txtName.Size = new System.Drawing.Size(100, 26);
             this.txtName.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(44, 95);
+            this.label2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Location = new System.Drawing.Point(33, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 12);
+            this.label2.Size = new System.Drawing.Size(88, 16);
             this.label2.TabIndex = 7;
             this.label2.Text = "设备简称：";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(44, 48);
+            this.label1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(33, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 12);
+            this.label1.Size = new System.Drawing.Size(88, 16);
             this.label1.TabIndex = 6;
             this.label1.Text = "设备名称：";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btn_Enter
             // 
-            this.btn_Enter.Location = new System.Drawing.Point(46, 213);
+            this.btn_Enter.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Enter.Location = new System.Drawing.Point(36, 213);
             this.btn_Enter.Name = "btn_Enter";
             this.btn_Enter.Size = new System.Drawing.Size(75, 23);
             this.btn_Enter.TabIndex = 3;
@@ -84,6 +90,7 @@
             // 
             // btn_Close
             // 
+            this.btn_Close.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Close.Location = new System.Drawing.Point(165, 213);
             this.btn_Close.Name = "btn_Close";
             this.btn_Close.Size = new System.Drawing.Size(75, 23);
@@ -94,36 +101,41 @@
             // 
             // txtNum
             // 
-            this.txtNum.Location = new System.Drawing.Point(140, 137);
+            this.txtNum.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.txtNum.Location = new System.Drawing.Point(140, 125);
             this.txtNum.Name = "txtNum";
-            this.txtNum.Size = new System.Drawing.Size(100, 21);
+            this.txtNum.Size = new System.Drawing.Size(100, 26);
             this.txtNum.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(44, 140);
+            this.label3.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Location = new System.Drawing.Point(33, 128);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 12);
+            this.label3.Size = new System.Drawing.Size(88, 16);
             this.label3.TabIndex = 11;
             this.label3.Text = "设备数量：";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(44, 180);
+            this.label4.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Location = new System.Drawing.Point(33, 174);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(125, 12);
+            this.label4.Size = new System.Drawing.Size(168, 16);
             this.label4.TabIndex = 12;
             this.label4.Text = "是否是煤气发生设备：";
             // 
             // rbtn
             // 
             this.rbtn.AutoSize = true;
-            this.rbtn.Location = new System.Drawing.Point(202, 178);
+            this.rbtn.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.rbtn.Location = new System.Drawing.Point(207, 174);
             this.rbtn.Name = "rbtn";
-            this.rbtn.Size = new System.Drawing.Size(15, 14);
-            this.rbtn.TabIndex = 14;
+            this.rbtn.Size = new System.Drawing.Size(14, 13);
+            this.rbtn.TabIndex = 13;
+            this.rbtn.TabStop = true;
             this.rbtn.UseVisualStyleBackColor = true;
             // 
             // AddEquip
@@ -160,6 +172,6 @@
         private System.Windows.Forms.TextBox txtNum;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.CheckBox rbtn;
+        private System.Windows.Forms.RadioButton rbtn;
     }
 }

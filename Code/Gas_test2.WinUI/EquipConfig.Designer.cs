@@ -68,9 +68,9 @@
             // 
             // btn_Update
             // 
-            this.btn_Update.Location = new System.Drawing.Point(119, 342);
+            this.btn_Update.Location = new System.Drawing.Point(117, 342);
             this.btn_Update.Name = "btn_Update";
-            this.btn_Update.Size = new System.Drawing.Size(51, 48);
+            this.btn_Update.Size = new System.Drawing.Size(65, 35);
             this.btn_Update.TabIndex = 8;
             this.btn_Update.Text = "更改";
             this.btn_Update.UseVisualStyleBackColor = true;
@@ -79,8 +79,8 @@
             // lbox_Equip
             // 
             this.lbox_Equip.FormattingEnabled = true;
-            this.lbox_Equip.ItemHeight = 12;
-            this.lbox_Equip.Location = new System.Drawing.Point(32, 20);
+            this.lbox_Equip.ItemHeight = 16;
+            this.lbox_Equip.Location = new System.Drawing.Point(32, 34);
             this.lbox_Equip.Name = "lbox_Equip";
             this.lbox_Equip.Size = new System.Drawing.Size(150, 292);
             this.lbox_Equip.TabIndex = 6;
@@ -90,6 +90,7 @@
             this.groupBox2.Controls.Add(this.btn_Update);
             this.groupBox2.Controls.Add(this.btn_Read);
             this.groupBox2.Controls.Add(this.lbox_Equip);
+            this.groupBox2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox2.Location = new System.Drawing.Point(310, 34);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(210, 411);
@@ -99,9 +100,9 @@
             // 
             // btn_Read
             // 
-            this.btn_Read.Location = new System.Drawing.Point(37, 342);
+            this.btn_Read.Location = new System.Drawing.Point(32, 342);
             this.btn_Read.Name = "btn_Read";
-            this.btn_Read.Size = new System.Drawing.Size(51, 48);
+            this.btn_Read.Size = new System.Drawing.Size(65, 35);
             this.btn_Read.TabIndex = 7;
             this.btn_Read.Text = "读取";
             this.btn_Read.UseVisualStyleBackColor = true;
@@ -109,9 +110,9 @@
             // 
             // btn_Delete
             // 
-            this.btn_Delete.Location = new System.Drawing.Point(124, 342);
+            this.btn_Delete.Location = new System.Drawing.Point(112, 342);
             this.btn_Delete.Name = "btn_Delete";
-            this.btn_Delete.Size = new System.Drawing.Size(50, 48);
+            this.btn_Delete.Size = new System.Drawing.Size(65, 35);
             this.btn_Delete.TabIndex = 7;
             this.btn_Delete.Text = "删除";
             this.btn_Delete.UseVisualStyleBackColor = true;
@@ -121,7 +122,7 @@
             // 
             this.btn_Add.Location = new System.Drawing.Point(27, 342);
             this.btn_Add.Name = "btn_Add";
-            this.btn_Add.Size = new System.Drawing.Size(50, 48);
+            this.btn_Add.Size = new System.Drawing.Size(65, 35);
             this.btn_Add.TabIndex = 6;
             this.btn_Add.Text = "添加";
             this.btn_Add.UseVisualStyleBackColor = true;
@@ -130,8 +131,8 @@
             // lbox_Type
             // 
             this.lbox_Type.FormattingEnabled = true;
-            this.lbox_Type.ItemHeight = 12;
-            this.lbox_Type.Location = new System.Drawing.Point(27, 20);
+            this.lbox_Type.ItemHeight = 16;
+            this.lbox_Type.Location = new System.Drawing.Point(27, 34);
             this.lbox_Type.Name = "lbox_Type";
             this.lbox_Type.Size = new System.Drawing.Size(150, 292);
             this.lbox_Type.TabIndex = 5;
@@ -141,6 +142,7 @@
             this.groupBox1.Controls.Add(this.btn_Delete);
             this.groupBox1.Controls.Add(this.btn_Add);
             this.groupBox1.Controls.Add(this.lbox_Type);
+            this.groupBox1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox1.Location = new System.Drawing.Point(26, 34);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 411);
@@ -150,17 +152,17 @@
             // 
             // txtbox_Num
             // 
-            this.txtbox_Num.Location = new System.Drawing.Point(110, 40);
+            this.txtbox_Num.Location = new System.Drawing.Point(115, 34);
             this.txtbox_Num.Name = "txtbox_Num";
-            this.txtbox_Num.Size = new System.Drawing.Size(100, 21);
+            this.txtbox_Num.Size = new System.Drawing.Size(100, 26);
             this.txtbox_Num.TabIndex = 10;
             // 
             // lab_Num
             // 
             this.lab_Num.AutoSize = true;
-            this.lab_Num.Location = new System.Drawing.Point(21, 43);
+            this.lab_Num.Location = new System.Drawing.Point(21, 37);
             this.lab_Num.Name = "lab_Num";
-            this.lab_Num.Size = new System.Drawing.Size(65, 12);
+            this.lab_Num.Size = new System.Drawing.Size(88, 16);
             this.lab_Num.TabIndex = 9;
             this.lab_Num.Text = "设备数量：";
             // 
@@ -168,9 +170,10 @@
             // 
             this.panel1.Controls.Add(this.txtbox_Num);
             this.panel1.Controls.Add(this.lab_Num);
+            this.panel1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.panel1.Location = new System.Drawing.Point(576, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(317, 100);
+            this.panel1.Size = new System.Drawing.Size(317, 90);
             this.panel1.TabIndex = 17;
             // 
             // tbPage_L3
@@ -231,10 +234,10 @@
             // tbPage_L1
             // 
             this.tbPage_L1.Controls.Add(this.dgv_L1);
-            this.tbPage_L1.Location = new System.Drawing.Point(4, 22);
+            this.tbPage_L1.Location = new System.Drawing.Point(4, 26);
             this.tbPage_L1.Name = "tbPage_L1";
             this.tbPage_L1.Padding = new System.Windows.Forms.Padding(3);
-            this.tbPage_L1.Size = new System.Drawing.Size(309, 205);
+            this.tbPage_L1.Size = new System.Drawing.Size(309, 201);
             this.tbPage_L1.TabIndex = 0;
             this.tbPage_L1.Text = "直采数据";
             this.tbPage_L1.UseVisualStyleBackColor = true;
@@ -248,7 +251,7 @@
             this.dgv_L1.Location = new System.Drawing.Point(3, 3);
             this.dgv_L1.Name = "dgv_L1";
             this.dgv_L1.RowTemplate.Height = 23;
-            this.dgv_L1.Size = new System.Drawing.Size(303, 199);
+            this.dgv_L1.Size = new System.Drawing.Size(303, 195);
             this.dgv_L1.TabIndex = 0;
             // 
             // L1Name
@@ -258,9 +261,10 @@
             // 
             // btn_create
             // 
-            this.btn_create.Location = new System.Drawing.Point(772, 379);
+            this.btn_create.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_create.Location = new System.Drawing.Point(749, 376);
             this.btn_create.Name = "btn_create";
-            this.btn_create.Size = new System.Drawing.Size(99, 66);
+            this.btn_create.Size = new System.Drawing.Size(140, 40);
             this.btn_create.TabIndex = 16;
             this.btn_create.Text = "创建设备表";
             this.btn_create.UseVisualStyleBackColor = true;
@@ -271,7 +275,8 @@
             this.tabControl1.Controls.Add(this.tbPage_L1);
             this.tabControl1.Controls.Add(this.tbPage_L2);
             this.tabControl1.Controls.Add(this.tbPage_L3);
-            this.tabControl1.Location = new System.Drawing.Point(576, 118);
+            this.tabControl1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tabControl1.Location = new System.Drawing.Point(576, 129);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(317, 231);
@@ -281,9 +286,9 @@
             // 
             this.btn_Right.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Right.BackgroundImage")));
             this.btn_Right.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Right.Location = new System.Drawing.Point(232, 193);
+            this.btn_Right.Location = new System.Drawing.Point(232, 224);
             this.btn_Right.Name = "btn_Right";
-            this.btn_Right.Size = new System.Drawing.Size(58, 34);
+            this.btn_Right.Size = new System.Drawing.Size(72, 30);
             this.btn_Right.TabIndex = 14;
             this.btn_Right.UseVisualStyleBackColor = true;
             this.btn_Right.Click += new System.EventHandler(this.btn_Right_Click);
@@ -292,18 +297,19 @@
             // 
             this.btn_Left.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Left.BackgroundImage")));
             this.btn_Left.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Left.Location = new System.Drawing.Point(232, 105);
+            this.btn_Left.Location = new System.Drawing.Point(232, 130);
             this.btn_Left.Name = "btn_Left";
-            this.btn_Left.Size = new System.Drawing.Size(58, 38);
+            this.btn_Left.Size = new System.Drawing.Size(72, 30);
             this.btn_Left.TabIndex = 13;
             this.btn_Left.UseVisualStyleBackColor = true;
             this.btn_Left.Click += new System.EventHandler(this.btn_Left_Click);
             // 
             // btn_Q
             // 
-            this.btn_Q.Location = new System.Drawing.Point(618, 379);
+            this.btn_Q.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Q.Location = new System.Drawing.Point(576, 376);
             this.btn_Q.Name = "btn_Q";
-            this.btn_Q.Size = new System.Drawing.Size(99, 66);
+            this.btn_Q.Size = new System.Drawing.Size(140, 40);
             this.btn_Q.TabIndex = 20;
             this.btn_Q.Text = "查询完整信息";
             this.btn_Q.UseVisualStyleBackColor = true;

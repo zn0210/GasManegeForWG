@@ -55,6 +55,7 @@
             // gbox1
             // 
             this.gbox1.Controls.Add(this.cbox_Eq);
+            this.gbox1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.gbox1.Location = new System.Drawing.Point(13, 12);
             this.gbox1.Name = "gbox1";
             this.gbox1.Size = new System.Drawing.Size(255, 85);
@@ -67,7 +68,7 @@
             this.cbox_Eq.FormattingEnabled = true;
             this.cbox_Eq.Location = new System.Drawing.Point(33, 31);
             this.cbox_Eq.Name = "cbox_Eq";
-            this.cbox_Eq.Size = new System.Drawing.Size(193, 20);
+            this.cbox_Eq.Size = new System.Drawing.Size(193, 24);
             this.cbox_Eq.TabIndex = 0;
             this.cbox_Eq.SelectedIndexChanged += new System.EventHandler(this.cbox_Eq_SelectedIndexChanged);
             // 
@@ -79,6 +80,7 @@
             this.gbox2.Controls.Add(this.btn_Right);
             this.gbox2.Controls.Add(this.btn_Left);
             this.gbox2.Controls.Add(this.lbox_UsedAlg);
+            this.gbox2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.gbox2.Location = new System.Drawing.Point(13, 113);
             this.gbox2.Name = "gbox2";
             this.gbox2.Size = new System.Drawing.Size(397, 374);
@@ -91,7 +93,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(241, 28);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 12);
+            this.label2.Size = new System.Drawing.Size(104, 16);
             this.label2.TabIndex = 12;
             this.label2.Text = "选入的算法：";
             // 
@@ -100,14 +102,14 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(34, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 12);
+            this.label1.Size = new System.Drawing.Size(88, 16);
             this.label1.TabIndex = 11;
             this.label1.Text = "可选算法：";
             // 
             // lbox_Alg
             // 
             this.lbox_Alg.FormattingEnabled = true;
-            this.lbox_Alg.ItemHeight = 12;
+            this.lbox_Alg.ItemHeight = 16;
             this.lbox_Alg.Location = new System.Drawing.Point(33, 46);
             this.lbox_Alg.Name = "lbox_Alg";
             this.lbox_Alg.Size = new System.Drawing.Size(113, 292);
@@ -117,9 +119,9 @@
             // 
             this.btn_Right.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Right.BackgroundImage")));
             this.btn_Right.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Right.Location = new System.Drawing.Point(168, 222);
+            this.btn_Right.Location = new System.Drawing.Point(158, 223);
             this.btn_Right.Name = "btn_Right";
-            this.btn_Right.Size = new System.Drawing.Size(58, 34);
+            this.btn_Right.Size = new System.Drawing.Size(74, 30);
             this.btn_Right.TabIndex = 8;
             this.btn_Right.UseVisualStyleBackColor = true;
             this.btn_Right.Click += new System.EventHandler(this.btn_Right_Click);
@@ -128,9 +130,9 @@
             // 
             this.btn_Left.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Left.BackgroundImage")));
             this.btn_Left.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Left.Location = new System.Drawing.Point(168, 114);
+            this.btn_Left.Location = new System.Drawing.Point(158, 122);
             this.btn_Left.Name = "btn_Left";
-            this.btn_Left.Size = new System.Drawing.Size(58, 38);
+            this.btn_Left.Size = new System.Drawing.Size(74, 30);
             this.btn_Left.TabIndex = 7;
             this.btn_Left.UseVisualStyleBackColor = true;
             this.btn_Left.Click += new System.EventHandler(this.btn_Left_Click);
@@ -138,7 +140,7 @@
             // lbox_UsedAlg
             // 
             this.lbox_UsedAlg.FormattingEnabled = true;
-            this.lbox_UsedAlg.ItemHeight = 12;
+            this.lbox_UsedAlg.ItemHeight = 16;
             this.lbox_UsedAlg.Location = new System.Drawing.Point(243, 46);
             this.lbox_UsedAlg.Name = "lbox_UsedAlg";
             this.lbox_UsedAlg.Size = new System.Drawing.Size(122, 292);
@@ -147,9 +149,10 @@
             // 
             // btn_Enter
             // 
+            this.btn_Enter.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Enter.Location = new System.Drawing.Point(307, 62);
             this.btn_Enter.Name = "btn_Enter";
-            this.btn_Enter.Size = new System.Drawing.Size(103, 45);
+            this.btn_Enter.Size = new System.Drawing.Size(103, 40);
             this.btn_Enter.TabIndex = 5;
             this.btn_Enter.Text = "创建算法表";
             this.btn_Enter.UseVisualStyleBackColor = true;
@@ -163,6 +166,7 @@
             this.gbox3.Controls.Add(this.btn_Right2);
             this.gbox3.Controls.Add(this.btn_Left2);
             this.gbox3.Controls.Add(this.lbox_UsedFact);
+            this.gbox3.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.gbox3.Location = new System.Drawing.Point(445, 28);
             this.gbox3.Name = "gbox3";
             this.gbox3.Size = new System.Drawing.Size(477, 454);
@@ -175,7 +179,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(270, 33);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 12);
+            this.label4.Size = new System.Drawing.Size(104, 16);
             this.label4.TabIndex = 16;
             this.label4.Text = "选择的因素：";
             // 
@@ -184,26 +188,26 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(60, 33);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 12);
+            this.label3.Size = new System.Drawing.Size(104, 16);
             this.label3.TabIndex = 15;
             this.label3.Text = "可选的因素：";
             // 
             // lbox_Factor
             // 
             this.lbox_Factor.FormattingEnabled = true;
-            this.lbox_Factor.ItemHeight = 12;
+            this.lbox_Factor.ItemHeight = 16;
             this.lbox_Factor.Location = new System.Drawing.Point(62, 58);
             this.lbox_Factor.Name = "lbox_Factor";
-            this.lbox_Factor.Size = new System.Drawing.Size(113, 364);
+            this.lbox_Factor.Size = new System.Drawing.Size(113, 356);
             this.lbox_Factor.TabIndex = 13;
             // 
             // btn_Right2
             // 
             this.btn_Right2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Right2.BackgroundImage")));
             this.btn_Right2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Right2.Location = new System.Drawing.Point(197, 234);
+            this.btn_Right2.Location = new System.Drawing.Point(186, 250);
             this.btn_Right2.Name = "btn_Right2";
-            this.btn_Right2.Size = new System.Drawing.Size(58, 34);
+            this.btn_Right2.Size = new System.Drawing.Size(74, 30);
             this.btn_Right2.TabIndex = 12;
             this.btn_Right2.UseVisualStyleBackColor = true;
             this.btn_Right2.Click += new System.EventHandler(this.btn_Right2_Click);
@@ -212,9 +216,9 @@
             // 
             this.btn_Left2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Left2.BackgroundImage")));
             this.btn_Left2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Left2.Location = new System.Drawing.Point(197, 126);
+            this.btn_Left2.Location = new System.Drawing.Point(186, 147);
             this.btn_Left2.Name = "btn_Left2";
-            this.btn_Left2.Size = new System.Drawing.Size(58, 38);
+            this.btn_Left2.Size = new System.Drawing.Size(74, 30);
             this.btn_Left2.TabIndex = 11;
             this.btn_Left2.UseVisualStyleBackColor = true;
             this.btn_Left2.Click += new System.EventHandler(this.btn_Left2_Click);
@@ -222,17 +226,18 @@
             // lbox_UsedFact
             // 
             this.lbox_UsedFact.FormattingEnabled = true;
-            this.lbox_UsedFact.ItemHeight = 12;
+            this.lbox_UsedFact.ItemHeight = 16;
             this.lbox_UsedFact.Location = new System.Drawing.Point(272, 58);
             this.lbox_UsedFact.Name = "lbox_UsedFact";
-            this.lbox_UsedFact.Size = new System.Drawing.Size(122, 364);
+            this.lbox_UsedFact.Size = new System.Drawing.Size(122, 356);
             this.lbox_UsedFact.TabIndex = 14;
             // 
             // btn_Q
             // 
-            this.btn_Q.Location = new System.Drawing.Point(307, 11);
+            this.btn_Q.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Q.Location = new System.Drawing.Point(307, 12);
             this.btn_Q.Name = "btn_Q";
-            this.btn_Q.Size = new System.Drawing.Size(103, 45);
+            this.btn_Q.Size = new System.Drawing.Size(103, 40);
             this.btn_Q.TabIndex = 7;
             this.btn_Q.Text = "查询关系图";
             this.btn_Q.UseVisualStyleBackColor = true;

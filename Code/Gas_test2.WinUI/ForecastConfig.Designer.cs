@@ -52,6 +52,7 @@
             // 
             // btn_Start
             // 
+            this.btn_Start.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Start.Location = new System.Drawing.Point(754, 31);
             this.btn_Start.Name = "btn_Start";
             this.btn_Start.Size = new System.Drawing.Size(154, 37);
@@ -64,6 +65,7 @@
             // 
             this.groupBox1.Controls.Add(this.DG_Forecast);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(944, 357);
@@ -80,10 +82,10 @@
             this.C_Trigger,
             this.C_Duration});
             this.DG_Forecast.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DG_Forecast.Location = new System.Drawing.Point(3, 17);
+            this.DG_Forecast.Location = new System.Drawing.Point(3, 22);
             this.DG_Forecast.Name = "DG_Forecast";
             this.DG_Forecast.RowTemplate.Height = 23;
-            this.DG_Forecast.Size = new System.Drawing.Size(938, 337);
+            this.DG_Forecast.Size = new System.Drawing.Size(938, 332);
             this.DG_Forecast.TabIndex = 0;
             // 
             // C_Equip
